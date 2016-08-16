@@ -6,32 +6,33 @@ public class Q3 {
 		// use a while/loop and switch/case to count
 		// the # of vowels in the string "how many vowels in this string?"
 
-		String vowels1 = "aeiou";
+		
+
 		String words1 = "How many vowels in this string?";
-		int counter = Integer.parseInt(vowels1);
+		int i = 0;
+		int count = 0;
+		//System.out.println("How many vowels is this string?");
+		while (i < words1.length()) {
+			char letter = words1.charAt(i);
+			
 
-		System.out.println("How many vowels is this string?");
-		switch (words1) {
+			switch (letter) {
 
-		case "a":
-			vowels1 = words1;
-			break;
-		case "e":
-			vowels1 = words1;
-			break;
-		case "i":
-			vowels1 = words1;
-			break;
-		case "o":
-			vowels1 = words1;
-			break;
-		case "u":
-			vowels1 = words1;
-			// default
+			case 'a':
+			case 'e':
+			case 'i':
+			case 'o':
+			case 'u':
+				count++;
+				
+				break;
 
-			System.out.println("There are" + counter + "vowels in this string");
+			default:
+				break;
 
+			}
+			i++;
 		}
-
+		System.out.println("There are " + count + " " +"vowels in this string.");
 	}
 }

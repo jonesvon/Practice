@@ -22,7 +22,7 @@ public class Q2 {
 		
 		
 		
-			System.out.println("The max number is" + max); 
+			System.out.println("The max number is " + max); 
 		//need to print maximum number
 			
 		

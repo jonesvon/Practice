@@ -1,15 +1,16 @@
 package Q5;
 
 public class Q5 {
-
+//get constructor
 	
 		
 		private String name;
 		public Q5(String name, String ssn, float salary) {
 			super();
-			this.name = name;
-			this.ssn = ssn;
-			this.salary = salary;
+			setName(name);
+			setSsn(ssn);
+			setSalary(salary);
+			//this.salary = salary;
 		}
 		public String getName() {
 			
@@ -35,7 +36,7 @@ public class Q5 {
 		private String ssn;
 		private float salary;
 		
-		//constructor
+
 
 	}
 
